@@ -1,0 +1,1090 @@
+CRITICAL - 2023-09-05 19:05:19 --> "min-length" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('title', 'Título', 'sadads', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Notices.php(57): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->save()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-05 19:12:23 --> "min-length" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('title', 'Título', 'sadads', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Notices.php(57): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->save()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-05 19:12:33 --> "min-length" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('title', 'Título', 'sdasd', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Notices.php(57): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->save()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-05 19:12:54 --> "min-length" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min-length')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('title', 'Título', 'sdasdasdasdasdasdas', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Notices.php(57): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->save()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-05 22:02:26 --> Invalid file: "teamplate/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teamplate/header.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('teamplate/header', [], true)
+ 3 APPPATH\Controllers\Users.php(10): view('teamplate/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-05 22:02:42 --> Invalid file: "teamplate/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teamplate/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('teamplate/footer', [], true)
+ 3 APPPATH\Controllers\Users.php(12): view('teamplate/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-05 22:02:43 --> Invalid file: "teamplate/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teamplate/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('teamplate/footer', [], true)
+ 3 APPPATH\Controllers\Users.php(12): view('teamplate/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-05 22:02:43 --> Invalid file: "teamplate/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teamplate/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('teamplate/footer', [], true)
+ 3 APPPATH\Controllers\Users.php(12): view('teamplate/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-05 22:02:44 --> Invalid file: "teamplate/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teamplate/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('teamplate/footer', [], true)
+ 3 APPPATH\Controllers\Users.php(12): view('teamplate/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-05 22:02:44 --> Invalid file: "teamplate/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teamplate/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('teamplate/footer', [], true)
+ 3 APPPATH\Controllers\Users.php(12): view('teamplate/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:28:50 --> mysqli_sql_exception: Unknown column 'password' in 'field list' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Database\Seeds\Users.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\Seeder.php(146): App\Database\Seeds\Users->run()
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-09-05 22:29:31 --> mysqli_sql_exception: Unknown column 'password' in 'field list' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Database\Seeds\Users.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\Seeder.php(146): App\Database\Seeds\Users->run()
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-09-05 22:29:59 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:29:59 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:01 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:01 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:02 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:02 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:02 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:02 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:02 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:02 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:03 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:03 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:03 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:03 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:03 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:03 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:04 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:04 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:04 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:04 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:04 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:04 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:20 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:20 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:32 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:32 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:32 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:32 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:33 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:33 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:33 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:33 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:33 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:33 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:30:33 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:30:33 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:31:24 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:31:24 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:31:24 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:31:24 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:41 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:41 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:41 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:41 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:42 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:42 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:42 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:42 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:42 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:42 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:43 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:43 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:43 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:43 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:43 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:43 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:43 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:43 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:44 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:44 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:44 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:44 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-05 22:32:46 --> mysqli_sql_exception: Unknown column 'notices.deleted_at' in 'where clause' in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\app\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(915): App\Controllers\Notices->index()
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry...')
+#13 {main}
+CRITICAL - 2023-09-05 22:32:46 --> Unknown column 'notices.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notices`
+WHERE `notices`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\NoticesModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Notices.php(20): App\Models\NoticesModel->getNotices()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Notices->index()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notices))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')

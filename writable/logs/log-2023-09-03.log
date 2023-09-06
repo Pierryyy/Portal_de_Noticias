@@ -1,0 +1,66 @@
+CRITICAL - 2023-09-03 23:24:59 --> Undefined constant "App\Controllers\APPATH"
+in APPPATH\Controllers\Pages.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Pages->mostrar()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-03 23:25:40 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Pages->mostrar()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-03 23:38:05 --> Undefined variable $copy
+in APPPATH\Views\teamplates\footer.php on line 1.
+ 1 APPPATH\Views\teamplates\footer.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\app\\Views\\teamplates\\footer.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\app\\Views\\teamplates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('teamplates/footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('teamplates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Pages->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+CRITICAL - 2023-09-03 23:38:06 --> Undefined variable $copy
+in APPPATH\Views\teamplates\footer.php on line 1.
+ 1 APPPATH\Views\teamplates\footer.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\app\\Views\\teamplates\\footer.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\app\\Views\\teamplates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('teamplates/footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('teamplates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Pages->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Pierry\\Desktop\\Trabalho\\CodeIgniterPHP\\codeigniter4-framework-30008a0\\public\\index.php')
+ERROR - 2023-09-03 23:57:18 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Pierry\Desktop\Trabalho\CodeIgniterPHP\codeigniter4-framework-30008a0\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
